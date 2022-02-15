@@ -21,40 +21,29 @@ h2,
 h3 {
   margin-top: 0;
 }
-// h1{}
-// h2{
-//   font-size: 1.4rem;
-// }
-// h3{
-//   font-size: 1.2rem;
-// }
 a,
 a:visited,
 a:active {
   text-decoration: none;
 }
-
 .wrap {
   background: #ffffff;
   margin-top:1rem;
   margin-bottom:1rem;
-  border-radius: 1rem;
   box-shadow: 0 10px 6px -6px #777;
-
+  
   &__title {
     display: flex;
     margin: 2rem 0;
     justify-content: center;
-    border-bottom: 1px solid #f0f4f6;
+    border-bottom: 1px solid #e6eeed;
   }
-
   &__secondtitle {
     display: flex;
     margin: 2rem 0;
     justify-content: left;
-    border-bottom: 1px solid #f0f4f6;
+    border-bottom: 1px solid #e6eeed;
   }
-
   table {
 
     td,
@@ -65,12 +54,14 @@ a:active {
     }
   }
 }
-
 .form-box,
 .footer {
   margin-bottom: 2rem;
 }
-
+.footer{
+  border-top: 1px solid #e6eeed;
+  padding: 2rem 0;
+}
 .table>tbody>tr:nth-of-type(2n+1) {
   background: none;
 
@@ -81,33 +72,26 @@ a:active {
       border-left-style: solid;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
-      text-align: center;
+      text-align: left;
 
     }
-
     &:last-child {
       border-right-style: solid;
       border-bottom-right-radius: 10px;
       border-top-right-radius: 10px;
     }
   }
-
-
 }
 
 .table>tbody>tr:nth-of-type(2n) {
-
   td {
     background: #f2f8fc;
-
     &:first-child {
       border-left-style: solid;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
-      text-align: center;
-
+      text-align: left;
     }
-
     &:last-child {
       border-right-style: solid;
       border-bottom-right-radius: 10px;
@@ -118,12 +102,10 @@ a:active {
 
 .table>tbody>tr td {
   border: 0;
-
 }
 
 .list-item {
   .btn-primary {
-   // color: #000;
     background: none;
     border-radius: 0;
     border: 0;

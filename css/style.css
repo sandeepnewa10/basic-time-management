@@ -32,20 +32,19 @@ a:active {
   background: #ffffff;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border-radius: 1rem;
   box-shadow: 0 10px 6px -6px #777;
 }
 .wrap__title {
   display: flex;
   margin: 2rem 0;
   justify-content: center;
-  border-bottom: 1px solid #f0f4f6;
+  border-bottom: 1px solid #e6eeed;
 }
 .wrap__secondtitle {
   display: flex;
   margin: 2rem 0;
   justify-content: left;
-  border-bottom: 1px solid #f0f4f6;
+  border-bottom: 1px solid #e6eeed;
 }
 .wrap table td,
 .wrap table th {
@@ -55,6 +54,11 @@ a:active {
 .form-box,
 .footer {
   margin-bottom: 2rem;
+}
+
+.footer {
+  border-top: 1px solid #e6eeed;
+  padding: 2rem 0;
 }
 
 .table > tbody > tr:nth-of-type(2n+1) {
@@ -67,7 +71,7 @@ a:active {
   border-left-style: solid;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  text-align: center;
+  text-align: left;
 }
 .table > tbody > tr:nth-of-type(2n+1) td:last-child {
   border-right-style: solid;
@@ -82,7 +86,7 @@ a:active {
   border-left-style: solid;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  text-align: center;
+  text-align: left;
 }
 .table > tbody > tr:nth-of-type(2n) td:last-child {
   border-right-style: solid;

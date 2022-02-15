@@ -15,6 +15,11 @@
     <!-- Fontawesome -->
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.3.0/font-awesome-animation.min.css"
+    />
+    
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <!-- Google Font -->
@@ -30,7 +35,7 @@
     <div class="wrap container">
       <div class="row">
         <div class="wrap__title">
-          <h1>To Do List</h1>
+          <h1>Not to do list</h1>
         </div>
       </div>
       
@@ -98,7 +103,9 @@
           <div class="list-item">
             <table class="table">
               <tbody id="bad-list">
-                
+
+
+              
 
                 <!-- <tr>
                   <td><input type="checkbox" name="" id="" /></td>
@@ -117,16 +124,21 @@
               </tbody>
             </table>
           </div>
-          <div class="ttl-bad text-end">Total time saved = 50hrs</div>
+          
         </div>
       </div>
-
-      <div class="row">
-        <div class="col text-center footer">
-          Total time allocated this week =
-           <spand id="totalHours">0</spand>hr
+      <div class="row footer">
+        <div class="col-md-6">
+          <div class="text-start">
+            Total time allocated this week =
+             <spand id="totalHours" style="font-weight: bold;">0 </spand>hr
+          </div>
         </div>
+        <div class="col-md-6"><div class="ttl-bad text-end">Total time saved = <span id="totalBadHrs" style="font-weight: bold;">0</span> hrs</div></div>
+        
+        
       </div>
+     
     </div>
 
     <!-- Bootstrap Framework JS -->
